@@ -32,44 +32,53 @@
     <main>
         <section id ="about">
         <h2>About</h2>
+      <div class="row">
         <div class="section__description">
-        <div>
-            <p>Frontend development made easy.  You have the use of mentors and an interactive portal to make your web development skills great! There are also live classes, one on one calls, and assistance even after you graduate.</p>
+        <div class="section__description--wrapper">
+            <p class="section__description--para">Frontend development made easy.  You have the use of mentors and an interactive portal to make your web development skills great! There are also live classes, one on one calls, and assistance even after you graduate.</p>
         </div>
-        <figure>
+        <figure class="about__img--wrapper">
             <img src="./coding.jpeg" alt="coding">
         </figure>
+        </div>
+    </div>
         </section>
-        <section id ="discord">
 
+        <section id ="discord">
         <h2>Discord</h2>
-        <figure>
+        <div class="row">
+        <div class="section__description">
+        <figure class="about__img--wrapper">
             <img src="./discord.jpeg" alt="Discord">
         </figure>
-        <div>
-        </section>
-            <p>Connect with FES discord here!
-                <p>A great way to communicate with other developers</p>
+        <div class="section__description--wrapper">
+        
+            <p class="section__description--para> Connect with FES discord here! </p>
+                <p class="section__description--para>A great way to communicate with other developers</p>
             </p>
         </div>
+           </div>
+           </div>
+        </section>
         <section id ="contact">
             <h2>Contact</h2>
             <form action="">
                 <span>Email </span>
-                <input type="text" placeholder="jane@example.com">
+                <input type="email" placeholder="jane@example.com">
                 <span>Message</span>
-                <textarea type="text" placeholder="jane@example.com"></textarea>
+                <textarea type="text" placeholder="Your message here..."></textarea>
+                <button>Contact Us</button>
             </form>
 
         </section>
         </main>
         <footer>
-            <img src="https://firebasestorage.googleapis.com/v0/b/do-not-delete-jg.firebasestorage.app/o/week-2-fes-practice%2FBuild%20and%20Apply.png?alt=media&token=1966865b-2096-4fd4-8d0b-da236bb33729" alt="FES image">
-            <div>
-                <a href="#about">About</a>
-                 <a href="#discord">Discord</a>
-                  <a href="#contact">Contact</a>
-                   <a href="courses">Courses</a>
+            <img class="footer__logo"src="https://firebasestorage.googleapis.com/v0/b/do-not-delete-jg.firebasestorage.app/o/week-2-fes-practice%2FBuild%20and%20Apply.png?alt=media&token=1966865b-2096-4fd4-8d0b-da236bb33729" alt="FES image">
+            <div class="footer__links">
+                <a class="footer__links" href="#about">About</a>
+                 <a class="footer__links"href="#discord">Discord</a>
+                  <a class="footer__links" href="#contact">Contact</a>
+                   <a class="footer__links" href="courses">Courses</a>
             </div>     
             <p> © Frontend Simplified. All rights reserved.</p>
         </footer>
